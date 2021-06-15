@@ -10,4 +10,6 @@ btn.addEventListener("click", function () {
   //   console.log(document.body);
 });
 
-function getRandomNumber() {}
+function getRandomNumber() {
+  return Math.random();
+}
